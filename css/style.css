@@ -1,0 +1,38 @@
+.table{
+    width: 600px;
+    height: 600px;
+}
+
+.div-table{
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+
+.img-cavalo{
+    max-width: 68px;
+    max-height: auto;
+}
+
+#div-img-cavalo{
+    position: absolute;
+    left: 570px;
+    top: 51px;
+    animation: div-cavalo 15s infinite;
+}
+
+
+@keyframes div-cavalo{
+    0%{left: 578px; top: 51px;}
+    4.55%{left: 578px; top: 200px;}
+    9.09%{left: 655px; top: 200px;}
+    13.64%{left: 655px; top: 350px;}
+    18.18%{left: 732px; top: 350px;}
+    22.73%{left: 732px; top: 500px;}
+    27.27%{left: 809px; top: 500px;}
+    31.82%{left: 809px; top: 580px;}
+    36.36%{left: 950px; top: 580px;}
+}
+
+
+
